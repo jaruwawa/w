@@ -1,0 +1,496 @@
+spawn(function()
+print"Load Re"
+wait(1040)
+game:GetService('TeleportService'):Teleport(17017769292 , game.Players.LocalPlayer)
+end)
+spawn(function()
+game.GuiService.Changed:Connect(function(child)
+if child == "MenuIsOpen" then
+wait(.5)
+game.GuiService:ClearError()
+wait(math.random(50,300))
+game:GetService('TeleportService'):Teleport(17017769292 , game.Players.LocalPlayer)
+end
+end)
+print"Load Auto"
+end)
+--Lob
+local VirtualInputManager = game:GetService('VirtualInputManager')
+if game.PlaceId == 17017769292 or game.PlaceId == 17764698696 then
+print"Load Lob"
+--Lobby
+repeat wait() until game.Players ~= nil
+repeat wait() until game.Players.LocalPlayer ~= nil
+repeat wait() until game.Players.LocalPlayer.Character ~= nil
+game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart",12)
+wait(1)
+game.Players.LocalPlayer.PlayerGui:WaitForChild("PAGES",20)
+game.Players.LocalPlayer.PlayerGui.PAGES:WaitForChild("MatchPage",20)
+game.Workspace:WaitForChild("SubStuff_DONT_DELETE",20)
+game:GetService("Workspace")["SubStuff_DONT_DELETE"]:WaitForChild("StoryPods",20)
+wait(.5)
+if game.Players:GetChildren()[40] ~= nil then
+game:Shutdown()
+end
+local VirtualInputManager = game:GetService('VirtualInputManager')
+VirtualInputManager:SendKeyEvent(true,Enum.KeyCode.Tab,false,game);
+VirtualInputManager:SendKeyEvent(false,Enum.KeyCode.Tab,false,game);
+game.CoreGui:WaitForChild("ExperienceChat",40)
+game.CoreGui.ExperienceChat:WaitForChild("appLayout",10)
+game:GetService("CoreGui").ExperienceChat.appLayout:WaitForChild("chatWindow",10)
+if game:GetService("CoreGui").ExperienceChat:FindFirstChild"appLayout" then
+game:GetService("CoreGui").ExperienceChat.appLayout.chatWindow.Visible = false
+else
+game:GetService("CoreGui").ExperienceChat:Remove()
+end
+wait()
+local VirtualInputManager = game:GetService('VirtualInputManager')
+game.Players.LocalPlayer.PlayerGui:WaitForChild("HUD",15)
+game.Players.LocalPlayer.PlayerGui.HUD:WaitForChild("MobileHolderRight",15)
+game.Players.LocalPlayer.PlayerGui.HUD.MobileHolderRight:WaitForChild("QuestButtonHolder",15)
+if game.Players.LocalPlayer.PlayerGui.HUD.MobileHolderRight:FindFirstChild"QuestButtonHolder" then
+repeat wait() until game:GetService("Players").LocalPlayer.PlayerGui.HUD.MobileHolderRight.QuestButtonHolder.QuestButton:GetChildren()[4] ~= nil
+if game:GetService("Players").LocalPlayer.PlayerGui.HUD.MobileHolderRight.QuestButtonHolder.QuestButton.CompletedIndicatorLabel.Visible == true then
+VirtualInputManager:SendMouseButtonEvent(95, 85, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(95, 85 , 0, false, game, 0);
+local Q = game:GetService("Players").LocalPlayer.PlayerGui.HUD.MobileHolderRight.QuestButtonHolder.QuestButton
+Q.Image = "nil"
+wait(4)
+VirtualInputManager:SendMouseButtonEvent(Q.AbsolutePosition.X+40, Q.AbsolutePosition.Y+40, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(Q.AbsolutePosition.X+40, Q.AbsolutePosition.Y+40, 0, false, game, 0);
+wait(3)
+local H = game:GetService("Players").LocalPlayer.PlayerGui.PAGES.QuestPage.CategoryHolder.Daily
+VirtualInputManager:SendMouseButtonEvent(H.AbsolutePosition.X+40, H.AbsolutePosition.Y+40, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(H.AbsolutePosition.X+40, H.AbsolutePosition.Y+40, 0, false, game, 0);
+wait(1)
+VirtualInputManager:SendMouseButtonEvent(H.AbsolutePosition.X-150, H.AbsolutePosition.Y+165, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(H.AbsolutePosition.X-150, H.AbsolutePosition.Y+165, 0, false, game, 0);
+wait(1)
+VirtualInputManager:SendMouseButtonEvent(H.AbsolutePosition.X-150, H.AbsolutePosition.Y+165, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(H.AbsolutePosition.X-150, H.AbsolutePosition.Y+165, 0, false, game, 0);
+wait(1)
+VirtualInputManager:SendMouseButtonEvent(H.AbsolutePosition.X-150, H.AbsolutePosition.Y+165, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(H.AbsolutePosition.X-150, H.AbsolutePosition.Y+165, 0, false, game, 0);
+wait(1)
+VirtualInputManager:SendMouseButtonEvent(H.AbsolutePosition.X-150, H.AbsolutePosition.Y+165, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(H.AbsolutePosition.X-150, H.AbsolutePosition.Y+165, 0, false, game, 0);
+wait(1)
+VirtualInputManager:SendMouseButtonEvent(H.AbsolutePosition.X-150, H.AbsolutePosition.Y+165, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(H.AbsolutePosition.X-150, H.AbsolutePosition.Y+165, 0, false, game, 0);
+wait(1)
+local W = game:GetService("Players").LocalPlayer.PlayerGui.PAGES.QuestPage.CategoryHolder.Weekly
+VirtualInputManager:SendMouseButtonEvent(W.AbsolutePosition.X+40, W.AbsolutePosition.Y+40, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(W.AbsolutePosition.X+40, W.AbsolutePosition.Y+40, 0, false, game, 0);
+wait(1)
+VirtualInputManager:SendMouseButtonEvent(H.AbsolutePosition.X-150, H.AbsolutePosition.Y+165, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(H.AbsolutePosition.X-150, H.AbsolutePosition.Y+165, 0, false, game, 0);
+wait(1)
+VirtualInputManager:SendMouseButtonEvent(H.AbsolutePosition.X-150, H.AbsolutePosition.Y+165, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(H.AbsolutePosition.X-150, H.AbsolutePosition.Y+165, 0, false, game, 0);
+wait(1)
+VirtualInputManager:SendMouseButtonEvent(H.AbsolutePosition.X-150, H.AbsolutePosition.Y+165, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(H.AbsolutePosition.X-150, H.AbsolutePosition.Y+165, 0, false, game, 0);
+wait(1)
+VirtualInputManager:SendMouseButtonEvent(H.AbsolutePosition.X-150, H.AbsolutePosition.Y+165, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(H.AbsolutePosition.X-150, H.AbsolutePosition.Y+165, 0, false, game, 0);
+wait(1)
+VirtualInputManager:SendMouseButtonEvent(H.AbsolutePosition.X-150, H.AbsolutePosition.Y+165, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(H.AbsolutePosition.X-150, H.AbsolutePosition.Y+165, 0, false, game, 0);
+wait(1)
+local R = game:GetService("Players").LocalPlayer.PlayerGui.PAGES.QuestPage.CategoryHolder.Infinite
+VirtualInputManager:SendMouseButtonEvent(R.AbsolutePosition.X+40, R.AbsolutePosition.Y+40, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(R.AbsolutePosition.X+40, R.AbsolutePosition.Y+40, 0, false, game, 0);
+wait(1)
+VirtualInputManager:SendMouseButtonEvent(H.AbsolutePosition.X-150, H.AbsolutePosition.Y+165, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(H.AbsolutePosition.X-150, H.AbsolutePosition.Y+165, 0, false, game, 0);
+wait(1)
+VirtualInputManager:SendMouseButtonEvent(H.AbsolutePosition.X-150, H.AbsolutePosition.Y+165, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(H.AbsolutePosition.X-150, H.AbsolutePosition.Y+165, 0, false, game, 0);
+wait(1)
+VirtualInputManager:SendMouseButtonEvent(H.AbsolutePosition.X-150, H.AbsolutePosition.Y+165, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(H.AbsolutePosition.X-150, H.AbsolutePosition.Y+165, 0, false, game, 0);
+wait(1)
+VirtualInputManager:SendMouseButtonEvent(H.AbsolutePosition.X-150, H.AbsolutePosition.Y+165, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(H.AbsolutePosition.X-150, H.AbsolutePosition.Y+165, 0, false, game, 0);
+wait(1)
+VirtualInputManager:SendMouseButtonEvent(H.AbsolutePosition.X-150, H.AbsolutePosition.Y+165, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(H.AbsolutePosition.X-150, H.AbsolutePosition.Y+165, 0, false, game, 0);
+wait(.7)
+end
+end
+wait(.1)
+repeat
+local rand = math.random(1,6)
+for i,v in pairs(game:GetService("Workspace")["SubStuff_DONT_DELETE"].StoryPods:GetChildren()) do
+if i == rand then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.MatchDisplayPart.CFrame
+end
+end
+wait()
+until game:GetService("Players").LocalPlayer.PlayerGui.PAGES.MatchPage.Visible == true
+wait(3)
+for i,v in pairs(game.Players.LocalPlayer.PlayerGui.PAGES.MatchPage:GetDescendants()) do
+if v:IsA"ImageButton" and v.Image == "rbxassetid://17534340660" then
+VirtualInputManager:SendMouseButtonEvent(v.AbsolutePosition.X+40, v.AbsolutePosition.Y+40, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(v.AbsolutePosition.X+40, v.AbsolutePosition.Y+40, 0, false, game, 0);
+VirtualInputManager:SendMouseButtonEvent(v.AbsolutePosition.X+40, v.AbsolutePosition.Y+40, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(v.AbsolutePosition.X+40, v.AbsolutePosition.Y+40, 0, false, game, 0);
+end
+end
+wait(2.5)
+local VirtualInputManager = game:GetService('VirtualInputManager')
+local C = game:GetService("Players").LocalPlayer.PlayerGui.PAGES.MatchPage.Frame.FriendsOnlyHolder.FriendsOnlyButton
+VirtualInputManager:SendMouseButtonEvent(C.AbsolutePosition.X+16, C.AbsolutePosition.Y+40, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(C.AbsolutePosition.X+16, C.AbsolutePosition.Y+40, 0, false, game, 0);
+wait(2)
+VirtualInputManager:SendMouseButtonEvent(500, 385, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(500, 385, 0, false, game, 0);
+wait(2)
+VirtualInputManager:SendMouseButtonEvent(530, 435, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(530, 435, 0, false, game, 0);
+wait(2)
+VirtualInputManager:SendMouseButtonEvent(750, 320, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(750, 320, 0, false, game, 0);
+wait()
+VirtualInputManager:SendMouseButtonEvent(780, 320, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(780, 320, 0, false, game, 0);
+wait()
+VirtualInputManager:SendMouseButtonEvent(790, 320, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(790, 320, 0, false, game, 0);
+wait()
+VirtualInputManager:SendMouseButtonEvent(800, 320, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(800, 320, 0, false, game, 0);
+wait()
+VirtualInputManager:SendMouseButtonEvent(800, 310, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(800, 310, 0, false, game, 0);
+wait()
+VirtualInputManager:SendMouseButtonEvent(800, 340, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(800, 340, 0, false, game, 0);
+wait()
+VirtualInputManager:SendMouseButtonEvent(800, 345, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(800, 345, 0, false, game, 0);
+wait()
+VirtualInputManager:SendMouseButtonEvent(800, 350, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(800, 350, 0, false, game, 0);
+wait()
+VirtualInputManager:SendMouseButtonEvent(800, 360, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(800, 360, 0, false, game, 0);
+wait()
+VirtualInputManager:SendMouseButtonEvent(800, 370, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(800, 370, 0, false, game, 0);
+wait(1)
+VirtualInputManager:SendMouseButtonEvent(800, 370, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(800, 370, 0, false, game, 0);
+wait(50)
+game:GetService('TeleportService'):Teleport(17017769292 , game.Players.LocalPlayer)
+else
+if game.PlaceId == 17018663967 then
+repeat wait() until game.Players ~= nil
+repeat wait() until game.Players.LocalPlayer ~= nil
+repeat wait() until game.Players.LocalPlayer.Character ~= nil
+game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart",6)
+local VirtualInputManager = game:GetService('VirtualInputManager')
+VirtualInputManager:SendMouseButtonEvent(95, 85, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(95, 85 , 0, false, game, 0);
+wait()
+VirtualInputManager:SendMouseButtonEvent(1030, 470, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(1030, 470 , 0, false, game, 0);
+game.CoreGui:WaitForChild("ExperienceChat",40)
+game.CoreGui.ExperienceChat:WaitForChild("appLayout",10)
+game:GetService("CoreGui").ExperienceChat.appLayout:WaitForChild("chatWindow",10)
+if game:GetService("CoreGui").ExperienceChat:FindFirstChild"appLayout" then
+game:GetService("CoreGui").ExperienceChat.appLayout.chatWindow.Visible = false
+else
+game:GetService("CoreGui").ExperienceChat:Remove()
+end
+wait()
+game.Workspace.Camera.CFrame = CFrame.new(-1677.71704, 41.8114777, -536.830811, 0.999538779, -0.0296325758, 0.00664062425, 0, 0.218675047, 0.975797594, -0.0303675439, -0.975347519, 0.218574196)
+game.Workspace.Camera.Focus = CFrame.new(-1677.80005, 29.6140099, -539.562988, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1677.8, 28.114, -539.563)
+wait(.5)
+local VirtualInputManager = game:GetService('VirtualInputManager')
+if game.Players:GetChildren()[2] ~= nil then
+game:GetService('TeleportService'):Teleport(17017769292 , game.Players.LocalPlayer)
+end
+wait(.1)
+VirtualInputManager:SendMouseButtonEvent(420, 310, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(420, 310 , 0, false, game, 0);
+wait(.1)
+VirtualInputManager:SendMouseButtonEvent(450, 360, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(450, 360 , 0, false, game, 0);
+wait()
+VirtualInputManager:SendMouseMoveEvent(420, 320, game)
+wait(.1)
+VirtualInputManager:SendMouseMoveEvent(450, 360, game)
+wait()
+VirtualInputManager:SendMouseMoveEvent(400, 300, game)
+wait(.1)
+VirtualInputManager:SendMouseMoveEvent(470, 320, game)
+repeat wait() until game.Players.LocalPlayer.PlayerGui:FindFirstChild("WaveTopBar")
+repeat wait() until game.Players.LocalPlayer.PlayerGui.WaveTopBar:FindFirstChild("Wave")
+repeat wait() until game.Players.LocalPlayer.PlayerGui.WaveTopBar.Wave:FindFirstChild("WaveFrame")
+repeat wait() until game.Players.LocalPlayer.PlayerGui.WaveTopBar.Wave.WaveFrame:FindFirstChild("TextLabel")
+while wait() do
+wait(.25)
+for i,v in pairs(game.Players.LocalPlayer.PlayerGui:GetDescendants()) do
+if v.Name == "WaveFrame" and v:FindFirstChild"TextLabel" then
+if v.TextLabel.Text ~= nil then
+if tonumber(v.TextLabel.Text) >= 31 then
+wait(3)
+local VirtualInputManager = game:GetService('VirtualInputManager')
+VirtualInputManager:SendMouseButtonEvent(110, 12, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(110, 12 , 0, false, game, 0);
+wait(2)
+VirtualInputManager:SendMouseButtonEvent(110, 120, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(110, 120 , 0, false, game, 0);
+wait(2)
+VirtualInputManager:SendMouseButtonEvent(450, 360, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(450, 360 , 0, false, game, 0);
+end
+end
+end
+end
+for i,v in pairs(game.Players.LocalPlayer.PlayerGui:GetDescendants()) do
+if v.Name == "MatchResultPage" and v:IsA"Frame" and v:FindFirstChild"Main" then
+if v.Visible == true then
+if v.Main:FindFirstChild("Options") then
+local C = v.Main.Options.BackToLobbyButton
+VirtualInputManager:SendMouseButtonEvent(C.AbsolutePosition.X+40, C.AbsolutePosition.Y+40, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(C.AbsolutePosition.X+40, C.AbsolutePosition.Y+40, 0, false, game, 0);
+end
+end
+end
+end
+--1st
+--GetChar
+VirtualInputManager:SendMouseButtonEvent(370, 550, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(370, 550, 0, false, game, 0);
+wait(1)
+--ChoosePosition
+local worldPoint = Vector3.new(-1673.62573, 26.8019695, -538.282166)
+local vector, onScreen = workspace.CurrentCamera:WorldToScreenPoint(worldPoint)
+VirtualInputManager:SendMouseMoveEvent(vector.X, vector.Y, game)
+wait(.2)
+VirtualInputManager:SendMouseMoveEvent(vector.X, vector.Y, game)
+wait(.8)
+VirtualInputManager:SendMouseButtonEvent(vector.X, vector.Y, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(vector.X, vector.Y, 0, false, game, 0);
+wait(.1)
+VirtualInputManager:SendMouseButtonEvent(vector.X, vector.Y, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(vector.X, vector.Y, 0, false, game, 0);
+wait(.1)
+VirtualInputManager:SendMouseButtonEvent(vector.X, vector.Y, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(vector.X, vector.Y, 0, false, game, 0);
+wait(.6)
+--Place
+VirtualInputManager:SendKeyEvent(true,Enum.KeyCode.C,false,game);
+VirtualInputManager:SendKeyEvent(false,Enum.KeyCode.C,false,game);
+wait()
+local B = game:GetService("Players").LocalPlayer.PlayerGui.HUD.LocalUnitHolder.MainFrame.HolderButtons.UpgradeButton
+VirtualInputManager:SendMouseButtonEvent(B.AbsolutePosition.X+65, B.AbsolutePosition.Y+40, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(B.AbsolutePosition.X+65, B.AbsolutePosition.Y+40, 0, false, game, 0);
+wait(.3)
+--OpenUp
+local worldPoint = Vector3.new(-1673.62573, 26.8019695, -538.282166)
+local vector, onScreen = workspace.CurrentCamera:WorldToScreenPoint(worldPoint)
+VirtualInputManager:SendMouseButtonEvent(vector.X, vector.Y, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(vector.X, vector.Y, 0, false, game, 0);
+wait(.6)
+--UpGrade
+local B = game:GetService("Players").LocalPlayer.PlayerGui.HUD.LocalUnitHolder.MainFrame.HolderButtons.UpgradeButton
+VirtualInputManager:SendMouseButtonEvent(B.AbsolutePosition.X+65, B.AbsolutePosition.Y+40, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(B.AbsolutePosition.X+65, B.AbsolutePosition.Y+40, 0, false, game, 0);
+wait(.3)
+VirtualInputManager:SendMouseButtonEvent(B.AbsolutePosition.X+65, B.AbsolutePosition.Y+40, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(B.AbsolutePosition.X+65, B.AbsolutePosition.Y+40, 0, false, game, 0);
+wait(.3)
+VirtualInputManager:SendMouseButtonEvent(B.AbsolutePosition.X+65, B.AbsolutePosition.Y+40, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(B.AbsolutePosition.X+65, B.AbsolutePosition.Y+40, 0, false, game, 0);
+wait(0.7)
+--2nd
+--GetChar
+VirtualInputManager:SendMouseButtonEvent(370, 550, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(370, 550, 0, false, game, 0);
+wait(1)
+--ChoosePosition
+local worldPoint = Vector3.new(-1673.62573, 26.8019695, -542.282166)
+local vector, onScreen = workspace.CurrentCamera:WorldToScreenPoint(worldPoint)
+VirtualInputManager:SendMouseMoveEvent(vector.X, vector.Y, game)
+wait(.2)
+VirtualInputManager:SendMouseMoveEvent(vector.X, vector.Y, game)
+wait(.85)
+VirtualInputManager:SendMouseButtonEvent(vector.X, vector.Y, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(vector.X, vector.Y, 0, false, game, 0);
+wait(.1)
+VirtualInputManager:SendMouseButtonEvent(vector.X, vector.Y, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(vector.X, vector.Y, 0, false, game, 0);
+wait(.1)
+VirtualInputManager:SendMouseButtonEvent(vector.X, vector.Y, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(vector.X, vector.Y, 0, false, game, 0);
+wait(.6)
+--Place
+VirtualInputManager:SendKeyEvent(true,Enum.KeyCode.C,false,game);
+VirtualInputManager:SendKeyEvent(false,Enum.KeyCode.C,false,game);
+wait()
+local B = game:GetService("Players").LocalPlayer.PlayerGui.HUD.LocalUnitHolder.MainFrame.HolderButtons.UpgradeButton
+VirtualInputManager:SendMouseButtonEvent(B.AbsolutePosition.X+65, B.AbsolutePosition.Y+40, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(B.AbsolutePosition.X+65, B.AbsolutePosition.Y+40, 0, false, game, 0);
+wait(.3)
+--OpenUp
+local worldPoint = Vector3.new(-1673.62573, 26.8019695, -542.282166)
+local vector, onScreen = workspace.CurrentCamera:WorldToScreenPoint(worldPoint)
+VirtualInputManager:SendMouseButtonEvent(vector.X, vector.Y, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(vector.X, vector.Y, 0, false, game, 0);
+wait(1)
+--UpGrade
+local B = game:GetService("Players").LocalPlayer.PlayerGui.HUD.LocalUnitHolder.MainFrame.HolderButtons.UpgradeButton
+VirtualInputManager:SendMouseButtonEvent(B.AbsolutePosition.X+65, B.AbsolutePosition.Y+40, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(B.AbsolutePosition.X+65, B.AbsolutePosition.Y+40, 0, false, game, 0);
+wait(.3)
+VirtualInputManager:SendMouseButtonEvent(B.AbsolutePosition.X+65, B.AbsolutePosition.Y+40, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(B.AbsolutePosition.X+65, B.AbsolutePosition.Y+40, 0, false, game, 0);
+wait(.3)
+VirtualInputManager:SendMouseButtonEvent(B.AbsolutePosition.X+65, B.AbsolutePosition.Y+40, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(B.AbsolutePosition.X+65, B.AbsolutePosition.Y+40, 0, false, game, 0);
+wait(.7)
+--3rd
+--GetChar
+VirtualInputManager:SendMouseButtonEvent(370, 550, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(370, 550, 0, false, game, 0);
+wait(1)
+--ChoosePosition
+local worldPoint = Vector3.new(-1680.62573, 26.8019695, -542)
+local vector, onScreen = workspace.CurrentCamera:WorldToScreenPoint(worldPoint)
+VirtualInputManager:SendMouseMoveEvent(vector.X, vector.Y, game)
+wait(.2)
+VirtualInputManager:SendMouseMoveEvent(vector.X, vector.Y, game)
+wait(.85)
+VirtualInputManager:SendMouseButtonEvent(vector.X, vector.Y, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(vector.X, vector.Y, 0, false, game, 0);
+wait(.1)
+VirtualInputManager:SendMouseButtonEvent(vector.X, vector.Y, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(vector.X, vector.Y, 0, false, game, 0);
+wait(.1)
+VirtualInputManager:SendMouseButtonEvent(vector.X, vector.Y, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(vector.X, vector.Y, 0, false, game, 0);
+wait(.6)
+--Place
+VirtualInputManager:SendKeyEvent(true,Enum.KeyCode.C,false,game);
+VirtualInputManager:SendKeyEvent(false,Enum.KeyCode.C,false,game);
+wait()
+local B = game:GetService("Players").LocalPlayer.PlayerGui.HUD.LocalUnitHolder.MainFrame.HolderButtons.UpgradeButton
+VirtualInputManager:SendMouseButtonEvent(B.AbsolutePosition.X+65, B.AbsolutePosition.Y+40, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(B.AbsolutePosition.X+65, B.AbsolutePosition.Y+40, 0, false, game, 0);
+wait(.3)
+--OpenUp
+local worldPoint = Vector3.new(-1680.62573, 26.8019695, -542)
+local vector, onScreen = workspace.CurrentCamera:WorldToScreenPoint(worldPoint)
+VirtualInputManager:SendMouseButtonEvent(vector.X, vector.Y, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(vector.X, vector.Y, 0, false, game, 0);
+wait(1)
+--UpGrade
+local B = game:GetService("Players").LocalPlayer.PlayerGui.HUD.LocalUnitHolder.MainFrame.HolderButtons.UpgradeButton
+VirtualInputManager:SendMouseButtonEvent(B.AbsolutePosition.X+65, B.AbsolutePosition.Y+40, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(B.AbsolutePosition.X+65, B.AbsolutePosition.Y+40, 0, false, game, 0);
+wait(.3)
+VirtualInputManager:SendMouseButtonEvent(B.AbsolutePosition.X+65, B.AbsolutePosition.Y+40, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(B.AbsolutePosition.X+65, B.AbsolutePosition.Y+40, 0, false, game, 0);
+wait(.3)
+VirtualInputManager:SendMouseButtonEvent(B.AbsolutePosition.X+65, B.AbsolutePosition.Y+40, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(B.AbsolutePosition.X+65, B.AbsolutePosition.Y+40, 0, false, game, 0);
+wait(.7)
+--4th
+--GetChar
+VirtualInputManager:SendMouseButtonEvent(370, 550, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(370, 550, 0, false, game, 0);
+wait(1)
+--ChoosePosition
+local worldPoint = Vector3.new(-1679.62573, 26.8019695, -538.582166)
+local vector, onScreen = workspace.CurrentCamera:WorldToScreenPoint(worldPoint)
+VirtualInputManager:SendMouseMoveEvent(vector.X, vector.Y, game)
+wait(.2)
+VirtualInputManager:SendMouseMoveEvent(vector.X, vector.Y, game)
+wait(.85)
+VirtualInputManager:SendMouseButtonEvent(vector.X, vector.Y, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(vector.X, vector.Y, 0, false, game, 0);
+wait(.1)
+VirtualInputManager:SendMouseButtonEvent(vector.X, vector.Y, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(vector.X, vector.Y, 0, false, game, 0);
+wait(.1)
+VirtualInputManager:SendMouseButtonEvent(vector.X, vector.Y, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(vector.X, vector.Y, 0, false, game, 0);
+wait(.6)
+--Place
+VirtualInputManager:SendKeyEvent(true,Enum.KeyCode.C,false,game);
+VirtualInputManager:SendKeyEvent(false,Enum.KeyCode.C,false,game);
+wait()
+local B = game:GetService("Players").LocalPlayer.PlayerGui.HUD.LocalUnitHolder.MainFrame.HolderButtons.UpgradeButton
+VirtualInputManager:SendMouseButtonEvent(B.AbsolutePosition.X+65, B.AbsolutePosition.Y+40, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(B.AbsolutePosition.X+65, B.AbsolutePosition.Y+40, 0, false, game, 0);
+wait(.3)
+--OpenUp
+local worldPoint = Vector3.new(-1679.62573, 26.8019695, -538.582166)
+local vector, onScreen = workspace.CurrentCamera:WorldToScreenPoint(worldPoint)
+VirtualInputManager:SendMouseButtonEvent(vector.X, vector.Y, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(vector.X, vector.Y, 0, false, game, 0);
+wait(1)
+--UpGrade
+local B = game:GetService("Players").LocalPlayer.PlayerGui.HUD.LocalUnitHolder.MainFrame.HolderButtons.UpgradeButton
+VirtualInputManager:SendMouseButtonEvent(B.AbsolutePosition.X+65, B.AbsolutePosition.Y+40, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(B.AbsolutePosition.X+65, B.AbsolutePosition.Y+40, 0, false, game, 0);
+wait(.3)
+VirtualInputManager:SendMouseButtonEvent(B.AbsolutePosition.X+65, B.AbsolutePosition.Y+40, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(B.AbsolutePosition.X+65, B.AbsolutePosition.Y+40, 0, false, game, 0);
+wait(.3)
+VirtualInputManager:SendMouseButtonEvent(B.AbsolutePosition.X+65, B.AbsolutePosition.Y+40, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(B.AbsolutePosition.X+65, B.AbsolutePosition.Y+40, 0, false, game, 0);
+wait(.7)
+--5th
+--GetChar
+VirtualInputManager:SendMouseButtonEvent(370, 550, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(370, 550, 0, false, game, 0);
+wait(1)
+--ChoosePosition
+local worldPoint = Vector3.new(-1683.42573, 26.8019695, -540)
+local vector, onScreen = workspace.CurrentCamera:WorldToScreenPoint(worldPoint)
+VirtualInputManager:SendMouseMoveEvent(vector.X, vector.Y, game)
+wait(.2)
+VirtualInputManager:SendMouseMoveEvent(vector.X, vector.Y, game)
+wait(.85)
+VirtualInputManager:SendMouseButtonEvent(vector.X, vector.Y, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(vector.X, vector.Y, 0, false, game, 0);
+wait(.1)
+VirtualInputManager:SendMouseButtonEvent(vector.X, vector.Y, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(vector.X, vector.Y, 0, false, game, 0);
+wait(.1)
+VirtualInputManager:SendMouseButtonEvent(vector.X, vector.Y, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(vector.X, vector.Y, 0, false, game, 0);
+wait(.6)
+--Place
+VirtualInputManager:SendKeyEvent(true,Enum.KeyCode.C,false,game);
+VirtualInputManager:SendKeyEvent(false,Enum.KeyCode.C,false,game);
+wait()
+local B = game:GetService("Players").LocalPlayer.PlayerGui.HUD.LocalUnitHolder.MainFrame.HolderButtons.UpgradeButton
+VirtualInputManager:SendMouseButtonEvent(B.AbsolutePosition.X+65, B.AbsolutePosition.Y+40, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(B.AbsolutePosition.X+65, B.AbsolutePosition.Y+40, 0, false, game, 0);
+wait(.3)
+--OpenUp
+local worldPoint = Vector3.new(-1683.42573, 26.8019695, -540)
+local vector, onScreen = workspace.CurrentCamera:WorldToScreenPoint(worldPoint)
+VirtualInputManager:SendMouseButtonEvent(vector.X, vector.Y, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(vector.X, vector.Y, 0, false, game, 0);
+wait(1)
+--UpGrade
+local B = game:GetService("Players").LocalPlayer.PlayerGui.HUD.LocalUnitHolder.MainFrame.HolderButtons.UpgradeButton
+VirtualInputManager:SendMouseButtonEvent(B.AbsolutePosition.X+65, B.AbsolutePosition.Y+40, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(B.AbsolutePosition.X+65, B.AbsolutePosition.Y+40, 0, false, game, 0);
+wait(.3)
+VirtualInputManager:SendMouseButtonEvent(B.AbsolutePosition.X+65, B.AbsolutePosition.Y+40, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(B.AbsolutePosition.X+65, B.AbsolutePosition.Y+40, 0, false, game, 0);
+wait(.3)
+VirtualInputManager:SendMouseButtonEvent(B.AbsolutePosition.X+65, B.AbsolutePosition.Y+40, 0, true, game, 0);
+VirtualInputManager:SendMouseButtonEvent(B.AbsolutePosition.X+65, B.AbsolutePosition.Y+40, 0, false, game, 0);
+wait(.7)
+end
+end
+end
